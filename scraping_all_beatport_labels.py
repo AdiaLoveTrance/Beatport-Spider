@@ -76,8 +76,8 @@ def Write2csv(rows, csvname):
 
 if __name__ == "__main__":
 
-    company_name = "Statement"
-    url = "/label/statement%21/3175/releases"
+    company_name = "RNM(RAZNITZANMUSIC)"
+    url = "/label/rnm-raznitzanmusic/40457/releases"
 
     session = requests.Session()
     fileobject = open(str(company_name) + ".txt", "w", encoding='utf-8')
